@@ -1,313 +1,545 @@
-# 📊 Excel Learning Journey
+# 📊 Excel & Data Analytics Portfolio
 
-Tento repozitář dokumentuje moji cestu učením Microsoft Excelu — od úplných základů, přičemž základy jsou zde zmíněny spíše okrajově, až po pokročilou práci s daty, reporting, analytické workflow a přípravu na Power BI.
+Portfolio zaměřené na **Microsoft Excel, datovou analýzu, business reporting a analytické workflow**.
+
+Repozitář obsahuje praktické case studies, analytické příklady a vlastní referenční materiály pokrývající práci s Excelem od datové přípravy a pokročilých funkcí až po dynamické reporty, KPI monitoring a business-oriented analýzu.
+
+Hlavní oblasti:
+
+- pokročilé Excel funkce,
+- vyhledávání a propojování dat,
+- filtrování a analytická logika,
+- dynamické oblasti a parametrické výpočty,
+- kontingenční tabulky,
+- KPI reporting,
+- podmíněné formátování,
+- business case studies,
+- strukturované tabulky,
+- analytické workflow.
 
 ---
 
-# 🎯 Cíl
+# 📂 Struktura repozitáře
 
-Vybudovat praktické portfolio a dostat se na úroveň junior data analytika.
-
----
-
-# 📁 Struktura repozitáře
-Struktura repozitáře odráží moji tehdejší nízkou úroveň znalosti Githubu, neboť jsem s ním začal paralelně.
-
-```md
-📂 excel-learning-journey
- ┣ 📄 README.md
- ┣ 📂 xls-case-studies
- ┣ 📂 xls-certificates
- ┣ 📂 xls-cheatsheets
- ┣ 📂 xls-examples
- ┣ 📂 xls-mini-tests
- ┗ 📂 xls-notes
+```text
+excel-analytics-portfolio/
+│
+├── xls-case-studies/
+│   ├── case-study-1.md
+│   ├── case-study-2.md
+│   ├── case-study-3.md
+│   ├── case-study-4.md
+│   ├── case-study-5.md
+│   ├── case-study-6.md
+│   └── case-study-7.md
+│
+├── xls-certificates/
+│   ├── certificate-basic.pdf
+│   └── certificate-advanced.pdf
+│
+├── xls-cheatsheets/
+│   └── xls-cheatsheet
+│
+├── xls-examples/
+│   └── examples
+│
+├── xls-mini-tests/
+│   ├── excel-mini-tests-basic
+│   └── excel-mini-tests-advanced
+│
+├── xls-notes/
+│   └── notes
+│
+└── README.md
 ```
 
 ---
 
-# 🧠 Co se v repozitáři učím
+# 🎯 Zaměření portfolia
 
-## 📗 Excel základy
+Repozitář demonstruje využití Excelu jako analytického nástroje v rámci workflow:
 
-* formátování buněk
-* vzorce a funkce
-* grafy
-* filtry
-* kontingenční tabulky
-* základy reportingu
+```text
+Business Question
+→ Data
+→ Validation
+→ Transformation
+→ Calculation
+→ Analysis
+→ Reporting
+→ Interpretation
+```
 
----
+Excel zde není používán pouze jako tabulkový editor, ale zejména pro:
 
-## 📘 Excel pro pokročilé
-
-* klávesové zkratky
-* efektivní práce bez myši
-* adresování vzorců
-* relativní / absolutní / smíšené odkazy
-* vnořené funkce
-* pojmenované oblasti
-* typy listů a jejich viditelnost
-* pokročilé vyhledávací funkce
-* SVYHLEDAT()
-* XLOOKUP()
-* INDEX() + POZVYHLEDAT()
-* automatické a rozšířené filtry
-* výpočtová kritéria
-* databázové funkce
-* logické funkce
-* podmíněné formátování
-* SUBTOTAL()
-* AGGREGATE()
-* POSUN()
-* dynamické oblasti
-* automatické souhrny
-* dynamické reporty
-* lookup dashboardy
-* parametrické výpočty
+- ad-hoc analýzu,
+- datové kontroly,
+- business výpočty,
+- filtrování a segmentaci dat,
+- lookup logiku,
+- KPI reporting,
+- dynamické reporty,
+- parametrické analýzy,
+- prototypování analytických řešení.
 
 ---
 
-## 📙 Data analytika mindset
+# 📁 Case Studies
 
-* reporting
-* KPI dashboardy
-* business case studies
-* práce s datovými sadami
-* analytické myšlení
-* automatizace práce
-* Power Query mindset
-* Power BI mindset
-* SQL → Excel → Power BI workflow
+Case studies jsou prezentovány **od nejpokročilejšího a nejreprezentativnějšího projektu po jednodušší analytické úlohy**.
+
+Důvodem je portfolio-oriented prezentace, kdy je na prvním místě projekt, který nejlépe reprezentuje moji aktuální úroveň zkušeností a práce s práce s Excelem. Původní číslování zůstává zachováno a zároveň dokumentuje postupný vývoj jednotlivých témat.
 
 ---
 
-# ✅ Aktuální progress
+## Case Study 07 — Dynamic KPI Reporting & Lookup Dashboard
 
-## 📗 Excel základy
+Nejkomplexnější Excel case study v repozitáři zaměřená na dynamický reporting, lookup logiku a parametrické výpočty.
 
-* ✅ prostředí Excelu
-* ✅ formátování buněk
-* ✅ vzorce a funkce
-* ✅ grafy
-* ✅ filtry
-* ✅ kontingenční tabulky
-* ✅ závěrečný test: 100 %
+Použité koncepty:
 
----
+- `INDEX()` + `POZVYHLEDAT()`,
+- lookup dashboard,
+- `IFS()`,
+- `SUBTOTAL()`,
+- `AGGREGATE()`,
+- `SOUČIN.SKALÁRNÍ()`,
+- `POSUN()`,
+- dynamické oblasti,
+- parametrické výpočty,
+- KPI reporting,
+- structured references.
 
-## 📘 Excel pro pokročilé
+Projekt kombinuje více Excel technik do jednoho analytického workflow a ukazuje přechod od jednotlivých funkcí k dynamickému reportingu.
 
-* ✅ Lekce 1: Úvod do pokročilého Excelu
-* ✅ Lekce 2: Klávesové zkratky a výběr buněk
-* ✅ Lekce 3: Rozšiřování vzorců a formátů
-* ✅ Lekce 4: Pojmenované oblasti
-* ✅ Lekce 5: Typy listů a viditelnost
-* ✅ Lekce 6: Hromadné úpravy listů
-* ✅ Lekce 7: Adresování buněk a práce se vzorci
-* ✅ Lekce 8: Relativní a smíšené adresování
-* ✅ Lekce 9: Vnořování funkcí a maticové vzorce
-* ✅ Lekce 10: Podmíněné výpočty a logika
-* ✅ Lekce 11: Logické operátory
-* ✅ Lekce 12: Vyhledávací funkce
-* ✅ Lekce 13: Pokročilé vyhledávací funkce
-* ✅ Lekce 14: Jednoduché filtrování dat
-* ✅ Lekce 15: Rozšířený filtr
-* ✅ Lekce 16: Pokročilé možnosti rozšířeného filtru
-* ✅ Lekce 17–18: SOUČIN.SKALÁRNÍ a podmíněné výpočty
-* ✅ Lekce 19–22: Databázové funkce a pokročilá logika
-* ✅ Lekce 23–24: Logické funkce a business pravidla
-* ✅ Lekce 25–26: Podmíněné formátování
-* ✅ Lekce 27: ZVOLIT() a INDEX()
-* ✅ Lekce 28: SUBTOTAL() a AGGREGATE()
-* ✅ Lekce 29: Automatické souhrny dat
-* ✅ Lekce 30: POSUN() a dynamické oblasti
-
-🔄 Opakování + závěrečný test (88 %)
+➡️ [Otevřít Case Study 07](xls-case-studies/case-study-7.md)
 
 ---
 
-# 📊 Case Studies
+## Case Study 06 — Conditional Formatting for KPI Monitoring
 
-Jedná se o case studies inspirované certifikovaným kurzem itnetwork Datová analýza od A do Z, část Excel pro pokročilé. Nejedná se tedy o case studies nebo příklady řešené přímo v rámci tohoto kurzu.
+Case study zaměřená na vizuální monitoring KPI pomocí pravidel a podmíněného formátování.
 
-## 📦 Case Study 01 — Sales Analysis
+Použité koncepty:
 
-**Procvičení:**
+- podmíněné formátování,
+- KPI alerty,
+- zvýraznění celých řádků,
+- business pravidla,
+- logická kombinace `A()` a `NEBO()`,
+- vizuální reporting.
 
-* analytické výpočty
-* filtrování dat
-* práce s tržbami
-* business logika
-* reporting workflow
+Cílem je využít formátování jako analytický nástroj pro rychlou identifikaci důležitých stavů a odchylek.
 
----
-
-## 📦 Case Study 02 — Inventory Management
-
-**Procvičení:**
-
-* Excel Tables (Ctrl + T)
-* XLOOKUP()
-* KDYŽ()
-* structured references
-* filtrování produktů
-* business logika skladu
+➡️ [Otevřít Case Study 06](xls-case-studies/case-study-6.md)
 
 ---
 
-## 📦 Case Study 03 — Advanced Filtering
+## Case Study 05 — Conditional Analytics
 
-**Procvičení:**
+Projekt zaměřený na kombinování podmínek a analytické rozhodovací logiky.
 
-* automatický filtr
-* rozšířený filtr
-* AND / OR logika
-* výpočtová kritéria
-* unikátní hodnoty
-* databázový přístup k datům
+Použité koncepty:
 
----
+- pokročilé podmínky,
+- kombinace funkcí,
+- analytická logika,
+- business scénáře,
+- rozhodovací pravidla.
 
-## 📦 Case Study 04 — Logical Access Rules
-
-**Procvičení:**
-
-* funkce A() a NEBO()
-* vnořená logika
-* převod logických výsledků
-* business pravidla
-* rozhodovací workflow
+➡️ [Otevřít Case Study 05](xls-case-studies/case-study-5.md)
 
 ---
 
-## 📦 Case Study 05 — Conditional Analytics
+## Case Study 04 — Logical Access Rules
 
-**Procvičení:**
+Case study zaměřená na převod business pravidel do logických podmínek v Excelu.
 
-* pokročilá logika podmínek
-* kombinace funkcí
-* analytické myšlení
-* simulace reálných business scénářů
+Použité koncepty:
 
----
+- `A()`,
+- `NEBO()`,
+- vnořená logika,
+- převod logických výsledků,
+- business rules,
+- rozhodovací workflow.
 
-## 📦 Case Study 06 — Conditional Formatting for KPI Monitoring
-
-**Procvičení:**
-
-* podmíněné formátování
-* KPI alerty
-* zvýraznění celých řádků
-* business pravidla
-* logika A() a NEBO()
-* vizuální reporting
+➡️ [Otevřít Case Study 04](xls-case-studies/case-study-4.md)
 
 ---
 
-## 📦 Case Study 07 — Dynamic KPI Reporting & Lookup Dashboard
+## Case Study 03 — Advanced Filtering
 
-**Procvičení:**
+Projekt zaměřený na pokročilé filtrování a databázový přístup k práci s tabulkovými daty.
 
-* INDEX() + POZVYHLEDAT()
-* lookup dashboardy
-* IFS()
-* SUBTOTAL()
-* AGGREGATE()
-* SOUČIN.SKALÁRNÍ()
-* POSUN()
-* dynamické oblasti
-* parametrické výpočty
-* KPI reporting
-* structured references
+Použité koncepty:
 
----
+- automatický filtr,
+- rozšířený filtr,
+- AND / OR logika,
+- výpočtová kritéria,
+- unikátní hodnoty,
+- práce s podmínkami nad datasetem.
 
-# 🛠️ Praktické dovednosti
-
-V repozitáři procvičuji hlavně:
-
-* efektivní práci bez myši
-* správnou adresaci vzorců
-* práci s většími datasety
-* filtrování dat pomocí logických podmínek
-* práci s vyhledávacími funkcemi
-* tvorbu analytických workflow
-* čistou strukturu Excel souborů
-* oddělení RAW dat, transformací a dashboardů
-* analytické myšlení podobné SQL
-* přípravu na Power BI
-* tvorbu dynamických dashboardů
-* parametrické reporty
-* KPI monitoring
+➡️ [Otevřít Case Study 03](xls-case-studies/case-study-3.md)
 
 ---
 
-# 🧩 Excel jako analytický nástroj
+## Case Study 02 — Inventory Management
 
-Excel zde nepoužívám jen jako tabulkový editor, ale jako nástroj pro:
+Case study simulující základní analytické úlohy v oblasti skladového hospodářství.
 
-* rychlou analýzu dat
-* ad-hoc reporting
-* business case studies
-* přípravu dat
-* filtrování a transformace
-* prototypování dashboardů
-* analytické workflow
-* KPI reporting
-* lookup dashboardy
+Použité koncepty:
 
----
+- Excel Tables (`Ctrl + T`),
+- `XLOOKUP()`,
+- `KDYŽ()`,
+- structured references,
+- filtrování produktů,
+- business logika skladu.
 
-# 🔗 SQL → Excel → Power BI mindset
-
-| SQL       | Excel                   | Power BI            |
-| --------- | ----------------------- | ------------------- |
-| SELECT    | výběr dat               | datový model        |
-| WHERE     | filtr / rozšířený filtr | slicer / filter     |
-| GROUP BY  | kontingenční tabulka    | agregace            |
-| CASE WHEN | KDYŽ()                  | DAX IF / SWITCH     |
-| JOIN      | SVYHLEDAT() / XLOOKUP() | relace              |
-| DISTINCT  | odebrání duplicit       | dimenze             |
-| ETL       | Power Query             | Power Query / model |
+➡️ [Otevřít Case Study 02](xls-case-studies/case-study-2.md)
 
 ---
 
-# 📌 Best Practices
+## Case Study 01 — Sales Analysis
 
-* ✅ používat Ctrl + T pro Excel tabulky
-* ✅ oddělovat RAW data od výstupů
-* ✅ nepoužívat vše na jednom listu
-* ✅ používat pojmenované oblasti
-* ✅ psát čitelné vzorce
-* ✅ automatizovat rutinní práci
-* ✅ tvořit škálovatelné workflow
-* ✅ stavět reporty tak, aby byly udržovatelné
-* ✅ používat lookup mindset místo ruční práce
-* ✅ minimalizovat hardcoded hodnoty
-* ✅ používat dynamické oblasti a tabulky
-* ✅ používat structured references
-* ✅ používat parametrické výpočty místo ručních změn
+Case study zaměřená na základní obchodní analýzu.
+
+Použité koncepty:
+
+- analytické výpočty,
+- filtrování dat,
+- práce s tržbami,
+- business logika,
+- reporting workflow.
+
+➡️ [Otevřít Case Study 01](xls-case-studies/case-study-1.md)
 
 ---
 
-# 🚀 Další směr
+# 🧩 Excel Skills
 
-Další krok v learning journey:
+## Excel Tables & Structured References
 
-* dokončení Excel Advanced
-* závěrečný test
-* Power Query
-* Power BI
-* Python fundamentals
-* pandas & EDA
-* dashboarding
-* business analytics
-* AI-assisted analytics workflow
+Portfolio zahrnuje práci se strukturovanými Excel tabulkami.
+
+Používané principy:
+
+- `Ctrl + T`,
+- structured references,
+- automatické rozšiřování dat,
+- dynamické odkazy,
+- čitelnější vzorce,
+- škálovatelnější analytické workflow.
+
+Princip:
+
+```text
+Fixed Range
+→ omezená flexibilita
+
+Excel Table
+→ dynamická datová struktura
+```
 
 ---
 
-# ⚠️ Poznámka
+## Lookup & Data Retrieval
 
-Repozitář používá pouze anonymizovaná nebo ukázková data určená pro studijní a portfolio účely.
-Cílem není jen naučit se syntaxe funkcí, ale budovat analytické myšlení a schopnost řešit reálné business problémy pomocí dat.
+Prakticky jsou pokryty různé způsoby vyhledávání a propojování dat.
+
+Použité funkce:
+
+```text
+SVYHLEDAT()
+XLOOKUP()
+INDEX()
+POZVYHLEDAT()
+```
+
+Pokročilejší kombinace:
+
+```text
+INDEX()
++
+POZVYHLEDAT()
+→ flexibilní lookup logika
+```
+
+Použití například pro:
+
+- vyhledávání produktů,
+- doplňování atributů,
+- dynamické reporty,
+- lookup dashboardy,
+- parametrické analýzy.
+
+---
+
+## Logické funkce a business rules
+
+Portfolio zahrnuje práci s:
+
+```text
+KDYŽ()
+IFS()
+A()
+NEBO()
+```
+
+Tyto funkce jsou používány pro:
+
+- kategorizaci,
+- business pravidla,
+- rozhodovací logiku,
+- validaci podmínek,
+- KPI statusy,
+- analytické scénáře.
+
+Důležitý princip:
+
+```text
+Business Rule
+→ Logical Condition
+→ Analytical Result
+```
+
+---
+
+## Filtering & Data Selection
+
+Prakticky jsou pokryty:
+
+- automatický filtr,
+- rozšířený filtr,
+- AND / OR podmínky,
+- výpočtová kritéria,
+- extrakce unikátních hodnot,
+- filtrování podle business pravidel.
+
+Rozšířený filtr umožňuje řešit i komplexnější podmínky nad tabulkovými daty.
+
+---
+
+## Conditional Calculations
+
+Součástí portfolia jsou také pokročilejší výpočty nad podmínkami.
+
+Použité koncepty zahrnují:
+
+```text
+SOUČIN.SKALÁRNÍ()
+databázové funkce
+vnořené podmínky
+výpočtová kritéria
+```
+
+Tyto techniky umožňují vytvářet agregace a analytické výpočty nad komplexnějšími business pravidly.
+
+---
+
+## SUBTOTAL & AGGREGATE
+
+Funkce:
+
+```text
+SUBTOTAL()
+AGGREGATE()
+```
+
+jsou využívány pro dynamické agregace reagující na stav datasetu.
+
+Použití:
+
+- součty filtrovaných dat,
+- dynamická KPI,
+- práce se skrytými řádky,
+- analytické souhrny.
+
+---
+
+## Dynamic Ranges & Parametric Reporting
+
+Portfolio zahrnuje také:
+
+```text
+POSUN()
+pojmenované oblasti
+dynamické oblasti
+parametrické výpočty
+```
+
+Tyto techniky umožňují vytvořit reporty, které se přizpůsobují změnám dat nebo uživatelskému výběru.
+
+Princip:
+
+```text
+Static Report
+→ ruční změny
+
+Dynamic Report
+→ parametrický a aktualizovatelný výstup
+```
+
+---
+
+## Pivot Tables
+
+Kontingenční tabulky jsou využívány pro:
+
+- agregaci dat,
+- sumarizaci,
+- porovnávání kategorií,
+- rychlou explorativní analýzu,
+- business reporting.
+
+Analytická logika je podobná principu:
+
+```sql
+GROUP BY
+```
+
+v SQL.
+
+---
+
+## Conditional Formatting
+
+Podmíněné formátování je používáno jako analytický nástroj, nikoli pouze jako vizuální dekorace.
+
+Použití:
+
+- KPI alerty,
+- zvýraznění odchylek,
+- identifikace problémových hodnot,
+- vizuální klasifikace,
+- zvýraznění celých řádků podle business pravidla.
+
+---
+
+# 📚 Knowledge Base
+
+## xls-cheatsheets
+
+Vlastní strukturovaná reference pokrývající Excel a analytické principy používané v projektech.
+
+Obsahuje například:
+
+- Excel funkce,
+- adresování buněk,
+- pojmenované oblasti,
+- lookup funkce,
+- logické funkce,
+- filtrování,
+- databázové funkce,
+- podmíněné formátování,
+- dynamické oblasti,
+- analytické workflow,
+- best practices.
+
+➡️ [Excel Cheatsheets](xls-cheatsheets/)
+
+---
+
+## xls-examples
+
+Praktické příklady jednotlivých Excel konceptů a analytických postupů.
+
+➡️ [Excel Examples](xls-examples/)
+
+---
+
+## xls-mini-tests
+
+Sada znalostních testů rozdělená na:
+
+```text
+Excel Basic
+Excel Advanced
+```
+
+Slouží jako kontrola znalostí funkcí, konceptů a analytických postupů.
+
+➡️ [Excel Mini Tests](xls-mini-tests/)
+
+---
+
+## xls-notes
+
+Pracovní znalostní báze obsahující poznámky a praktické reference k Excelu.
+
+➡️ [Excel Notes](xls-notes/)
+
+---
+
+# 📜 Certificates
+
+Repozitář obsahuje certifikáty související s absolvovanými Excel kurzy:
+
+- [Excel Basic Certificate](xls-certificates/certificate-basic.pdf)
+- [Excel Advanced Certificate](xls-certificates/certificate-advanced.pdf)
+
+---
+
+# 🛠 Technologie a koncepty
+
+```text
+Microsoft Excel
+Excel Tables
+Structured References
+Pivot Tables
+Lookup Functions
+Logical Functions
+Dynamic Ranges
+Conditional Formatting
+Data Validation
+KPI Reporting
+Business Analytics
+Data Analysis
+Git
+GitHub
+```
+
+---
+
+# 🔄 Excel, Power Query a Power BI
+
+Excel představuje jednu z vrstev širšího analytického workflow.
+
+Typický přístup:
+
+```text
+Excel
+→ rychlá analýza
+→ ad-hoc reporting
+→ business calculations
+
+Power Query
+→ datová příprava
+→ transformace
+→ opakovatelné ETL
+
+Power BI
+→ datový model
+→ DAX
+→ interaktivní management reporting
+```
+
+Volba nástroje závisí na rozsahu dat, typu problému, potřebě automatizace a cílovém uživateli.
+
+---
+
+# 📈 Další rozvoj
+
+Portfolio je dále rozšiřováno především prostřednictvím komplexnějších analytických projektů, které propojují více nástrojů v jednom workflow.
+
+Navazující oblasti zahrnují například:
+
+- SQL + Excel,
+- Power Query,
+- Power BI,
+- Python a pandas,
+- automatizaci,
+- větší datové sady,
+- end-to-end business analytics projekty.
