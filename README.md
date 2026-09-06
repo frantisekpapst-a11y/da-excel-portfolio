@@ -220,201 +220,38 @@ Použité koncepty:
 
 # 🧩 Excel Skills
 
-## Excel Tables & Structured References
+Portfolio pokrývá praktickou práci s Excelem od strukturovaných tabulek a lookup funkcí až po dynamický reporting a KPI analýzu.
 
-Portfolio zahrnuje práci se strukturovanými Excel tabulkami.
+Hlavní oblasti:
 
-Používané principy:
-
-- `Ctrl + T`,
-- structured references,
-- automatické rozšiřování dat,
-- dynamické odkazy,
-- čitelnější vzorce,
-- škálovatelnější analytické workflow.
-
-Princip:
-
-```text
-Fixed Range
-→ omezená flexibilita
-
-Excel Table
-→ dynamická datová struktura
-```
-
----
-
-## Lookup & Data Retrieval
-
-Prakticky jsou pokryty různé způsoby vyhledávání a propojování dat.
-
-Použité funkce:
-
-```text
-SVYHLEDAT()
-XLOOKUP()
-INDEX()
-POZVYHLEDAT()
-```
-
-Pokročilejší kombinace:
-
-```text
-INDEX()
-+
-POZVYHLEDAT()
-→ flexibilní lookup logika
-```
-
-Použití například pro:
-
-- vyhledávání produktů,
-- doplňování atributů,
-- dynamické reporty,
-- lookup dashboardy,
-- parametrické analýzy.
-
----
-
-## Logické funkce a business rules
-
-Portfolio zahrnuje práci s:
-
-```text
-KDYŽ()
-IFS()
-A()
-NEBO()
-```
-
-Tyto funkce jsou používány pro:
-
-- kategorizaci,
-- business pravidla,
-- rozhodovací logiku,
-- validaci podmínek,
-- KPI statusy,
-- analytické scénáře.
-
-Důležitý princip:
-
-```text
-Business Rule
-→ Logical Condition
-→ Analytical Result
-```
-
----
-
-## Filtering & Data Selection
-
-Prakticky jsou pokryty:
-
-- automatický filtr,
-- rozšířený filtr,
-- AND / OR podmínky,
+- Excel Tables a structured references,
+- `SVYHLEDAT()`, `XLOOKUP()`,
+- `INDEX()` + `POZVYHLEDAT()`,
+- `KDYŽ()`, `IFS()`, `A()`, `NEBO()`,
+- automatický a rozšířený filtr,
 - výpočtová kritéria,
-- extrakce unikátních hodnot,
-- filtrování podle business pravidel.
+- `SOUČIN.SKALÁRNÍ()`,
+- databázové funkce,
+- `SUBTOTAL()` a `AGGREGATE()`,
+- `POSUN()` a dynamické oblasti,
+- pojmenované oblasti,
+- parametrické výpočty,
+- kontingenční tabulky,
+- podmíněné formátování,
+- KPI reporting,
+- lookup dashboardy.
 
-Rozšířený filtr umožňuje řešit i komplexnější podmínky nad tabulkovými daty.
-
----
-
-## Conditional Calculations
-
-Součástí portfolia jsou také pokročilejší výpočty nad podmínkami.
-
-Použité koncepty zahrnují:
-
-```text
-SOUČIN.SKALÁRNÍ()
-databázové funkce
-vnořené podmínky
-výpočtová kritéria
-```
-
-Tyto techniky umožňují vytvářet agregace a analytické výpočty nad komplexnějšími business pravidly.
-
----
-
-## SUBTOTAL & AGGREGATE
-
-Funkce:
+Důraz je kladen na:
 
 ```text
-SUBTOTAL()
-AGGREGATE()
+Data
+→ Calculation
+→ Analysis
+→ Dynamic Reporting
+→ Business Interpretation
 ```
 
-jsou využívány pro dynamické agregace reagující na stav datasetu.
-
-Použití:
-
-- součty filtrovaných dat,
-- dynamická KPI,
-- práce se skrytými řádky,
-- analytické souhrny.
-
----
-
-## Dynamic Ranges & Parametric Reporting
-
-Portfolio zahrnuje také:
-
-```text
-POSUN()
-pojmenované oblasti
-dynamické oblasti
-parametrické výpočty
-```
-
-Tyto techniky umožňují vytvořit reporty, které se přizpůsobují změnám dat nebo uživatelskému výběru.
-
-Princip:
-
-```text
-Static Report
-→ ruční změny
-
-Dynamic Report
-→ parametrický a aktualizovatelný výstup
-```
-
----
-
-## Pivot Tables
-
-Kontingenční tabulky jsou využívány pro:
-
-- agregaci dat,
-- sumarizaci,
-- porovnávání kategorií,
-- rychlou explorativní analýzu,
-- business reporting.
-
-Analytická logika je podobná principu:
-
-```sql
-GROUP BY
-```
-
-v SQL.
-
----
-
-## Conditional Formatting
-
-Podmíněné formátování je používáno jako analytický nástroj, nikoli pouze jako vizuální dekorace.
-
-Použití:
-
-- KPI alerty,
-- zvýraznění odchylek,
-- identifikace problémových hodnot,
-- vizuální klasifikace,
-- zvýraznění celých řádků podle business pravidla.
+Detailní syntaxe, příklady a poznámky jsou součástí cheatsheetu, examples a jednotlivých case studies.
 
 ---
 
