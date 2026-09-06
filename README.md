@@ -2,11 +2,11 @@
 
 Portfolio zaměřené na **Microsoft Excel, datovou analýzu, business reporting a analytické workflow**.
 
-Repozitář obsahuje praktické case studies, analytické příklady a vlastní referenční materiály pokrývající práci s Excelem od datové přípravy a pokročilých funkcí až po dynamické reporty, KPI monitoring a business-oriented analýzu.
+Repozitář obsahuje praktické case studies, analytické příklady a referenční materiály pokrývající práci s Excelem od datové přípravy a pokročilých funkcí až po dynamické reporty, KPI monitoring a business-oriented analýzu.
 
 Hlavní oblasti:
 
-- pokročilé Excel funkce,
+- základní i pokročilé Excel funkce,
 - vyhledávání a propojování dat,
 - filtrování a analytická logika,
 - dynamické oblasti a parametrické výpočty,
