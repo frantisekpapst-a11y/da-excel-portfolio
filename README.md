@@ -364,19 +364,3 @@ Power BI
 ```
 
 Volba nástroje závisí na rozsahu dat, typu problému, potřebě automatizace a cílovém uživateli.
-
----
-
-# 📈 Další rozvoj
-
-Portfolio je dále rozšiřováno především prostřednictvím komplexnějších analytických projektů, které propojují více nástrojů v jednom workflow.
-
-Navazující oblasti zahrnují například:
-
-- SQL + Excel,
-- Power Query,
-- Power BI,
-- Python a pandas,
-- automatizaci,
-- větší datové sady,
-- end-to-end business analytics projekty.
