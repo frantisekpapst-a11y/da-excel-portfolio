@@ -1,4 +1,4 @@
-# 📊 Excel & Data Analytics Portfolio
+# 📊 Data Analytics Excel Portfolio
 
 Portfolio zaměřené na **Microsoft Excel, datovou analýzu, business reporting a analytické workflow**.
 
@@ -22,7 +22,7 @@ Hlavní oblasti:
 # 📂 Struktura repozitáře
 
 ```text
-excel-analytics-portfolio/
+da-excel-portfolio/
 │
 ├── xls-case-studies/
 │   ├── case-study-1.md
